@@ -1,2 +1,1 @@
-# MyMusicPlayerDemo
-MyMusicPlayerDemo
+做一个最简单的波形图
