@@ -234,8 +234,9 @@ class RetangleMusicAnimation extends MusicAnimation{
         }
     }
 }
-
 const music1 = new Music('player-audio', 'diushoujuan', './diushoujuan.mp3');
 const musicAnimation1 = new RetangleMusicAnimation('player-canvas');
-const player1 = new AudioPlayer('player-audio');
-player1.setMusic(music1, musicAnimation1.main);
+document.querySelector('#start').addEventListener('click', () => {
+	const player1 = new AudioPlayer('player-audio');
+	player1.setMusic(music1, musicAnimation1.main);
+})
